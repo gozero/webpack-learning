@@ -16,7 +16,7 @@ function component() {
 
     element.appendChild(myIcon)
 
-    console.log(Data) // chrome控制台看不到，火狐可以
+    console.log(Data)
 
     return element
 }
