@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Code-Light';
+  src: url('./CODE_Light.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  background: url('./icon.png') no-repeat;
+}
+
+.title {
+  font-size: 60px;
+  font-family: 'Code-Light';
+}
