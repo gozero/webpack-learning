@@ -99,7 +99,8 @@ module.exports = {
     extractSass,
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Mi'
+      title: 'Mi',
+      template: './src/my-index.ejs',
     }),
     new webpack.HashedModuleIdsPlugin(),
     // new webpack.HotModuleReplacementPlugin(), // 在开启服务器环境中出现chunkhash的bug
